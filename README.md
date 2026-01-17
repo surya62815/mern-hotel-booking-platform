@@ -2,6 +2,7 @@
 
 🚀 A full-stack hotel booking web application designed to solve real-world booking and availability problems using the MERN stack.
 
+🔗 Live Demo:  https://surya62815.github.io/mern-hotel-booking-platform/
 
 ---
 
@@ -31,7 +32,7 @@
 
 
 ## 📁 Project Structure
-```text
+
 hotel-booking-platform/
 ├── client/                 # React Frontend
 │   ├── src/
