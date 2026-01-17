@@ -33,25 +33,27 @@
 
 ## 📁 Project Structure
 
+```text
 hotel-booking-platform/
 ├── client/                 # React Frontend
 │   ├── src/
-│   │   ├── components/    # Navbar, Footer, HotelCard, SearchBar
-│   │   ├── pages/         # Home, Hotels, Booking, Dashboard, Auth
-│   │   ├── context/       # AuthContext, BookingContext
-│   │   ├── hooks/         # Custom hooks
-│   │   ├── utils/         # API calls, helpers
-│   │   └── App.js         # Main App component
-│   └── public/            # Static assets
+│   │   ├── components/     # Navbar, Footer, HotelCard, SearchBar
+│   │   ├── pages/          # Home, Hotels, Booking, Dashboard, Auth
+│   │   ├── context/        # AuthContext, BookingContext
+│   │   ├── hooks/          # Custom hooks
+│   │   ├── utils/          # API calls, helpers
+│   │   └── App.js          # Main App component
+│   └── public/             # Static assets
 │
 ├── server/                 # Express Backend
-│   ├── models/            # User, Hotel, Booking, Review
-│   ├── routes/            # authRoutes, hotelRoutes, bookingRoutes
-│   ├── controllers/       # Business logic
-│   ├── middleware/        # auth, error, validation
-│   ├── config/           # Database, cloudinary, email config
-│   └── server.js         # Entry point
+│   ├── models/             # User, Hotel, Booking, Review
+│   ├── routes/             # authRoutes, hotelRoutes, bookingRoutes
+│   ├── controllers/        # Business logic
+│   ├── middleware/         # auth, error, validation
+│   ├── config/             # Database, cloudinary, email config
+│   └── server.js           # Entry point
 │
-├── .env.example           # Environment template
-├── package.json          # Root dependencies
-└── README.md            # Documentation
+├── .env.example             # Environment template
+├── package.json             # Root dependencies
+└── README.md                # Documentation
+
